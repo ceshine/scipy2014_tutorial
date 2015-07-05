@@ -1,0 +1,6 @@
+notebook:
+  image: ceshine/py2-datascience-toolbox
+  ports:
+   - "8888:8888"
+  volumes:
+   - .:/lab
