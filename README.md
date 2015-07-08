@@ -1,5 +1,20 @@
 # Bayesian Statistical Analysis in Python
 
+## Docker image
+
+### Using Docker Run
+``` bash
+docker run -p 8888:8888 ceshine/bayes-tutorial
+```
+
+### Using Docker-Compose
+``` bash
+docker-compose up
+```
+
+### Access
+Access the notebooks via http://localhost:8888
+
 The aim of this course is to introduce new users to the Bayesian approach of statistical modeling and analysis, so that they can use Python packages such as NumPy, SciPy and [PyMC](https://github.com/pymc-devs/pymc) effectively to analyze their own data. It is designed to get users quickly up and running with Bayesian methods, incorporating just enough statistical background to allow users to understand, in general terms, what they are implementing. The tutorial will be example-driven, with illustrative case studies using real data. Selected methods will include approximation methods, importance sampling, Markov chain Monte Carlo (MCMC) methods such as Metropolis-Hastings and Slice sampling. In addition to model fitting, the tutorial will address important techniques for model checking, model comparison, and steps for preparing data and processing model output. 
 
 ![PyMC forest plot](http://d.pr/i/pqWT+)
